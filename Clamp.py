@@ -54,7 +54,7 @@ class Clamp:
 	
 	def __repr__(self) -> str:
 		# Operation: repr(x)
-		raise NotImplementedError
+		return f'Clamp({self._lb}, {self._cv}, {self._ub})'
 
 	def __str__(self) -> str:
 		# Operation: str(x)
